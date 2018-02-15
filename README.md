@@ -51,7 +51,7 @@ npm run build:prod
 
 ### 1. Run these commands one after another in the terminal to create project folders and install all dependencies
 
-```
+```bash
 mkdir project_name && cd project_name
 npm init
 mkdir src dist src/assets src/assets/media src/assets/js src/assets/scss
@@ -64,7 +64,7 @@ npm i -D extract-text-webpack-plugin file-loader
 
 ### 2. Add this snippet into .babelrc
 
-```
+```js
 {
   "presets": ["env"]
 }
@@ -72,7 +72,7 @@ npm i -D extract-text-webpack-plugin file-loader
 
 ### 3. Configure package.json > scripts with this snippet
 
-```
+```json
 "scripts": {
   "build": "./node_modules/.bin/webpack",
   "build:prod": "./node_modules/.bin/webpack -p",
@@ -83,7 +83,7 @@ npm i -D extract-text-webpack-plugin file-loader
 
 ### 4. Import app.scss into your app.js
 
-```
+```js
 import './assets/scss/app.scss';
 ```
 
