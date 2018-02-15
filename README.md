@@ -46,3 +46,7 @@ npm run build:prod
 * clean-webpack-plugin
 * extract-text-webpack-plugin
 * html-webpack-plugin
+
+## Cheat-sheet
+
+###1. Run these commands one after another in the terminal to create project folders and install all dependencies
