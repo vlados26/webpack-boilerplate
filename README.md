@@ -61,3 +61,22 @@ npm i -D clean-webpack-plugin babel-loader babel-core babel-preset-env
 npm i -D html-loader html-webpack-plugin sass-loader node-sass css-loader style-loader  
 npm i -D extract-text-webpack-plugin file-loader
 ```
+
+### 2. Add this snippet into .babelrc
+
+```
+{
+  "presets": ["env"]
+}
+```
+
+### 3. Configure package.json > scripts with this snippet
+
+```
+"scripts": {
+  "build": "./node_modules/.bin/webpack",
+  "build:prod": "./node_modules/.bin/webpack -p",
+  "watch": "./node_modules/.bin/webpack --watch",
+  "dev": "./node_modules/.bin/webpack-dev-server"
+}
+```
