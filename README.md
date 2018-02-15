@@ -49,4 +49,4 @@ npm run build:prod
 
 ## Cheat-sheet
 
-###1. Run these commands one after another in the terminal to create project folders and install all dependencies
+### 1. Run these commands one after another in the terminal to create project folders and install all dependencies
