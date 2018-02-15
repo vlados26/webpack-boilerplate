@@ -56,6 +56,7 @@ mkdir project_name && cd project_name
 npm init
 mkdir src dist src/assets src/assets/media src/assets/js src/assets/scss
 touch webpack.config.js README.md .babelrc src/index.html src/app.js src/assets/scss/app.scss
-npm i -D webpack
-npm i -D webpack-dev-server clean-webpack-plugin babel-loader babel-core babel-preset-env html-loader html-webpack-plugin sass-loader node-sass css-loader style-loader extract-text-webpack-plugin file-loader
+npm i -D webpack webpack-dev-server  
+npm i -D clean-webpack-plugin babel-loader babel-core babel-preset-env 
+npm i -D html-loader html-webpack-plugin sass-loader node-sass css-loader style-loader extract-text-webpack-plugin file-loader 
 ```
