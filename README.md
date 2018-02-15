@@ -91,7 +91,7 @@ import './assets/scss/app.scss';
 
 ### 6. Copy and paste this configuration file into your webpack.config.js (make sure that project folders hierarchy to be same)
 
-```
+```js
 const path = require('path'),
       webpack = require('webpack'),
       CleanWebpackPlugin = require('clean-webpack-plugin'),
